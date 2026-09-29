@@ -2,7 +2,7 @@ name: Host2Play 续期
 
 on:
   schedule:
-  - cron: '0 */4 * * *'   # 每4小时执行一次：UTC 00:00、04:00、08:00、12:00、16:00、20:00
+  - cron: '17 */4 * * *'   # 每4小时的 UTC 第17分钟触发（北京时间 08:17, 12:17 等）
   workflow_dispatch:
 
 permissions:
